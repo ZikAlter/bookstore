@@ -1,0 +1,393 @@
+/* Цвета и тени */
+.col-yellow {
+	color: #ffa500;
+}
+.col-svetgreen {
+	color: #66cdaa;
+}
+.col-svetblue {
+	color: #6897bb;
+}
+.col-white {
+	color: white;	
+}
+.color-green {
+	color: green;
+}
+.col-mork {
+	color: #EA4335;
+}
+.social-menu li a {	color: white;
+	text-shadow: 0 0 10px #5181B8;
+}
+.user-txt-exit {
+	color: rgb(116, 177, 206); 
+	text-decoration: underline; 
+	text-shadow: 0 0 10px rgb(8, 144, 207);
+}
+.col-blackblue {
+	color: #4A616C;
+}
+.col-black {
+	color: black;
+}
+.col-seaandshadow {
+	color: #4285F4; 
+	text-shadow: 0 0 10px #4285F4;
+}
+.color-fonsrgba {
+	background: rgba(34, 34, 34, 0.4);
+}
+.txtshad-black {
+	text-shadow: 0 0 10px black;
+}
+.col-fenix {
+	color: #E52F21;
+}
+.col-maps {
+	color: #0A833C;
+}
+.col-phone {
+	color: #4285F4;
+}
+.col-redbook {
+	color: #AE2732;
+}
+.col-world {
+	color: #4C6EF5;
+}
+.col-like {
+	color: #010F29;
+	text-shadow: 0 0 10px #37A3CC; 
+}
+.col-dislike {
+	color: #960C17;
+	text-shadow: 0 0 10px red; 
+}
+.txtshad-sea {
+	text-shadow: 0 0 10px #3F87FF;
+}
+.txtshad-errors {
+	text-shadow: 0 0 10px #FF3547;
+}
+.txtshad-phone {
+	text-shadow: 0 0 10px #607D8B;
+}
+.txtshad-name {
+	text-shadow: 0 0 10px #FF5722;
+}
+.txtshad-mail {
+	text-shadow: 0 0 10px #4CAF50;
+}
+.txtshad-pass {
+	text-shadow: 0 0 10px #F44336;
+}
+.txtshad-goodrega {
+	text-shadow: 0 0 10px #00C851;
+}
+.txtshad-titlecour {
+	text-shadow: 0 0 10px #4285F4;
+}
+.txtshad-orang-iconcours {
+	text-shadow: 0 0 10px #FF5722;
+}
+.txtshad-dangers {
+	text-shadow: 0 0 10px #FF3547;
+}
+.col-logo-hakiro {
+	color: #0A833C; 
+	text-shadow: 0 0 10px white;
+}
+.textshad-greenzone {
+	text-shadow: 0 0 10px #5181B8;
+}
+.textshad-neutral {
+	text-shadow: 0 0 10px #5d5d5d;
+}
+.nav-link:hover {
+	text-shadow: 1px 1px 10px white;
+}
+.social-menu li a:hover {
+	text-shadow: 0 0 40px red;
+	transition: all 0.6s ease;
+}
+.cell-topbook:hover {
+	box-shadow: 0 0 20px black;
+	transform: scale(1.1);
+	transition: all 0.4s ease;
+}
+/* ------------------------------------------------ */
+
+/* Шрифты */
+.oglav-topbook {
+	color: #5181B8;
+	font-family: 'Play', sans-serif; 
+	padding-top: 10px;
+	text-shadow: 0 0 10px #5181B8;
+}
+.font-philos {
+	font-family: 'Philosopher', sans-serif;
+}
+.oglav-cell-footer {
+	color: #66CDAA;
+	font-family: 'Play', sans-serif; 
+}
+.font-jura {
+	font-family: 'Jura', sans-serif;
+}
+.coord-google-txt {
+	color: #AE2732; 
+	font-family: 'Comfortaa', cursive; 
+	font-size: 50px;
+	text-shadow: 0 0 10px #AE2732; 
+}
+.font-play {
+	font-family: 'Play', sans-serif;
+}
+.lk-info-username {
+	font-family: 'Jura', sans-serif; 
+	font-size: 40px;
+}
+.lk-info-vseouser {
+	color: #4A616C;
+	font-family: 'Ubuntu', sans-serif; 
+}
+.bottom-menu li a {
+	color: white;
+	font-family: 'Play', sans-serif;
+	text-decoration: none;
+	text-shadow: 0 0 15px #66CDAA;
+}
+.font-comfort {
+	font-family: 'Comfortaa', cursive;
+}
+.font-ubuntu {
+	font-family: 'Ubuntu', sans-serif;
+}
+/* ------------------------------------------------ */
+
+/* Курсоры */
+#form-registr .form-group > label {
+	cursor: pointer;
+}
+#form-admin .form-group > label {
+	cursor: pointer;
+}
+#form-autor .form-group > label {
+	cursor: pointer;
+}
+#new-namemagaz .form-group > label {
+	cursor: pointer;
+}
+#new-factaddress .form-group > label {
+	cursor: pointer;
+}
+#new-uraddress .form-group > label {
+	cursor: pointer;
+}
+#new-numbphone .form-group > label {
+	cursor: pointer;
+}
+#new-emailadress .form-group > label {
+	cursor: pointer;
+}
+#new-socvk .form-group > label {
+	cursor: pointer;
+}
+#new-socfacebook .form-group > label {
+	cursor: pointer;
+}
+#new-socweb .form-group > label {
+	cursor: pointer;
+}
+#new-googlemaps .form-group > label {
+	cursor: pointer;
+}
+#new-glosary .form-group > label {
+	cursor: pointer;
+}
+#block-user .form-group > label {
+	cursor: pointer;
+}
+#nullblock-user .form-group > label {
+	cursor: pointer;
+}
+#new-seminar .form-group > label {
+	cursor: pointer;
+}
+#new-course .form-group > label {
+	cursor: pointer;
+}
+/* ------------------------------------------------ */
+
+/* Кнопки */
+.butt-buybook {
+	background-color: transparent!important;
+	border-radius: 5px; border: 2px solid #729E4F!important;
+	color: #729E4F!important;
+}
+.button-moregoods {
+	background-color: #AE2732; 
+	color: white; 
+  	border-radius: 5px; 
+  	font-size: 17px; 
+  	text-transform: capitalize;
+}
+.button-moregoods:hover {
+	box-shadow:0 0 20px black;
+	transform: scale(1.2);
+	transition: all 0.3s ease;
+}
+/* ------------------------------------------------ */
+
+/* Отступы, радиусы и другие цифровые значения */
+.pad-top10 {
+	padding-top: 10px;
+}
+.pad-bot10 {
+	padding-bottom: 10px;
+}
+.pad-left32 {
+	padding-left: 32px;
+}
+.pad-bot50 {
+	padding-bottom: 50px;
+}
+.pad-top50 {
+	padding-top: 50px;
+}
+.bord-rad5 {
+	border-radius: 5px;
+}
+.font-14 {
+	font-size: 14px;
+}
+.pad-40 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.bordrad-90 {
+	border-radius: 90px;
+}
+.bordrad-20 {
+	border-radius: 20px;
+}
+.fonsiz-18 {
+	font-size: 18px;
+}
+.bordrad-10 {
+	border-radius: 10px;
+}
+.bordrad-30 {
+	border-radius: 30px;
+}
+.h-330 {
+	height: 330px;
+}
+/* ------------------------------------------------ */
+
+/* Прочие свойства */
+.navbar-nav li {
+	padding-right: 40px;
+}
+.scrollup {
+	background: url('img/icon_top.png') no-repeat;
+	bottom: 50px;
+	display: none;
+	height: 40px;
+	opacity: 0.7;
+	position: fixed;
+	right: 50px;
+	text-indent: -9999px;
+	width: 40px;
+}
+.fon-header {
+	background: url('img/books.jpg') no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	background-size: cover;
+	color: white;
+	height: auto;
+}
+.glavmenu-fon {
+	background-color: rgb(10, 131, 60); 
+	font-family: 'Play', sans-serif;
+}
+.blog-profit-content {
+	background: rgba(34, 34, 34, 0.7);
+	border-radius: 20px; 
+	box-shadow: -5px -5px 3px black; 
+	color: white; 
+	font-family: 'Comfortaa', cursive;
+	padding-top: 10px;
+}
+.fon-doodles-pattern {
+	background: url('img/stonehaven.png');
+	background-attachment: fixed; 
+	background-position: center;  
+	height: auto;
+}
+.social-menu {
+	font-size: 20px; 
+	padding-left: 0;
+	padding-top: 20px;
+}
+.social-menu li {
+	display: inline;
+	list-style-type: none;
+}
+.bottom-menu {
+	font-size: 17px;
+	padding-left: 0; 
+}
+.bottom-menu li {
+	list-style-type: none; 
+	padding-top: 5px;
+}
+.bottom-menu li a:hover {
+	border-bottom: 1px solid white;
+}
+.elemt-book-menu {
+	color: #03632B;
+	border-bottom: 1px solid #D0D0D0;
+}
+.logo-hakiro {
+	border-radius: 35px; 
+	border: 5px solid white;
+	box-shadow: 0 0 30px white; 
+}
+.fons-footer {
+	background-color: #4A616C; 
+	border-top: 5px solid #5DAB96;
+	min-height: auto; 
+}
+.block-kratko-book {
+	border-left: 5px solid #4A616C; 
+	font-family: 'Play', sans-serif;
+	padding-left: 5px; 
+}
+.bordrad-oglav-reg {
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+.map-container-5 {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+.map-container-5 iframe {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.bordbott-black {
+	border-bottom: 1px solid black;
+}
+.uprekviz {
+	cursor: pointer;
+	font-size: 14px;
+  	color: red;
+}

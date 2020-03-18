@@ -1,0 +1,37 @@
+/*.navbar-nav {
+	float: none;
+	text-align: center;
+}
+.navbar-nav li {
+	float: none;
+	display: inline-block;
+}*/
+.navbar-nav li{
+	padding-right: 40px;
+}
+.nav-link:hover{
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	text-shadow: 1px 1px 10px white;
+	/*transition: all 0.2s ease;*/
+}
+.scrollup{
+	width:40px;
+	height:40px;
+	opacity:0.7;
+	position:fixed;
+	bottom:50px;
+	right:50px;
+	display:none;
+	text-indent:-9999px;
+	background: url('img/icon_top.png') no-repeat;
+}
+.col-yellow{
+  color: #ffa500;
+}
+.col-svetgreen{
+  color: #66cdaa;
+}
+.col-svetblue{
+  color: #6897bb;
+}

@@ -3,6 +3,7 @@ session_start(); // объявление сессии
 require_once('php/li-connect.php'); // соединение с БД
 require_once('php/header.php'); // верстка header
 ?>
+yes my world!
 <main>
 <div class="container-fluid fon-doodles-pattern">
   <div class="container">
